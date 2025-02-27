@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo - Vitor Roziski</title>
+<style>
+body { font-family: Arial, sans-serif; background-color: #0c5810; color: #333; }
+.container { width: 60%; margin: auto; }
+h1, h2 { color: #1fdf0d; }
+button { font-size: 1.2em; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Vitor Roziski</h1>
+<p>Email: vitor.roziski@escola.pr.gov.br | Telefone: (41) 99694-9348</p>
+<h2>Resumo</h2>
+<p>Experiencia em tecnologia, componentes e agronomia.</p>
+
+<h2>Formação Acadêmica</h2>
+<p>Curso Ensino Medio - Instituição Colegio Dom Pedro II - Ano de Conclusão 2025</p>
+<h2>Experiência Profissional</h2>
+<p>Empresa Agronomia - Cargo Coletor - Período Tarde </p>
+<h2>Habilidades</h2>
+<ul>
+<li>Habilidade: Inteligencia, Esforçado, Responsavel</li>
+<li>Habilidade: Agronomo</li>
+<h2> Informações Adicionais   
+</h2>
+<p> 1. Cursos de Especialização:
+    - Especialização em Gestão de Recursos Hídricos
+    - Especialização em Agricultura de Precisão
+    - Especialização em Agroecologia
+    
+    2. Certificações:
+    - Certificação em Análise de Solo e Fertilidade
+    - Certificação em Manejo Integrado de Pragas
+    - Certificação em Agricultura Orgânica</p>
+</ul>
+<h2>Acessibilidade</h2>
+<button onclick="aumentarFonte()">A+</button>
+<button onclick="diminuirFonte()">A-</button>
+<script>
+function aumentarFonte() {
+document.body.style.fontSize = 'larger';
+}
+function diminuirFonte() {
+document.body.style.fontSize = 'smaller';
+}
+</script>
+</div>
+<div id="acessibilidade" class="menu-acessibilidade">
+    <button id="botao-acessibilidade" class="btn btn-primary fw-bold
+    rotacao-botao">Acessibilidade</button>
+    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+    
+    <button id="aumentar-fonte" onclick="aumentarFonte()" class="btn btn-primary fw-
+    bold">A+</button>
+    
+    <button id="diminuir-fonte" onclick="diminuirFonte()" class="btn btn-primary fw-bold">A-
+    </button>
+    <button id="contraste" class="btn btn-primary fw-bold">Modo Alto Contraste</button>
+    </div>
+    </div>
+</body>
+</html>
